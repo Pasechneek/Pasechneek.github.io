@@ -1,0 +1,32 @@
+  div {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  h1 {font-size: 20px;}
+  
+
+
+       /*class начинаются с точки!*/
+  .violet { 
+  color: #9400D3;
+  }
+  .paragraph {
+  color: #3a3209f5;
+  /* Правило color устанавливает цвет текста. */
+  }
+
+
+  /*ID начинаются с решётки!!!*/
+#red {
+  color: red;
+}
+#green {
+  color: rgb(9, 255, 0);
+}
+#blue {
+  color: rgb(17, 0, 255);
+}
