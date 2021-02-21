@@ -4,11 +4,20 @@
 
   p {
     font-size: 14px;
+    font-weight: 400;
   }
 
-  h1 {font-size: 20px;}
-  
+  h1 {
+    font-size: 20px;
+  }
 
+  .header3{
+    font: bold 20px Segoe Print, fantasy;
+  }
+  
+.segoe{
+  font-family: Segoe Print, fantasy;
+}
 
        /*class начинаются с точки!*/
   .violet { 
@@ -18,7 +27,9 @@
   color: #3a3209f5;
   /* Правило color устанавливает цвет текста. */
   }
-
+  .italyc-type{
+    font-style: oblique;
+  }
 
   /*ID начинаются с решётки!!!*/
 #red {
