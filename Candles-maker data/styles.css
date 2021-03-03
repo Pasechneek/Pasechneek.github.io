@@ -11,8 +11,16 @@
     font-size: 20px;
   }
 
-  .header3{
+  h3{
     font: bold 20px Segoe Print, fantasy;
+    line-height: 15px;
+    text-align: center;
+  }
+
+  .header3 h3 section{
+    font: bold 20px Segoe Print, fantasy;
+    line-height: 15px;
+    text-align: center;
   }
   
 .segoe{
@@ -23,13 +31,13 @@
   .violet { 
   color: #9400D3;
   }
+
   .paragraph {
   color: #3a3209f5;
+  }
   /* Правило color устанавливает цвет текста. */
-  }
-  .italyc-type{
-    font-style: oblique;
-  }
+
+
 
   /*ID начинаются с решётки!!!*/
 #red {
@@ -41,3 +49,96 @@
 #blue {
   color: rgb(17, 0, 255);
 }
+
+
+/* Анимация для текста*/
+
+@keyframes color-change {
+  0% {
+color: blue;
+}
+
+50% {
+color: red;
+}
+
+100% {
+color: blue;
+}
+}
+
+.color-change-animation{
+animation: color-change 1s infinite;
+}
+
+/*переменная*/
+:root {
+--main-color: #00bfff;
+}
+
+.relative-position{
+  position: relative;
+  top: 100px;
+  right: 50px;
+  }
+
+/*NOT USED NOT USED NOT USED NOT USED NOT USED NOT USED NOT USED NOT USED*/
+
+.padding-background{
+  padding: 10px 20px 15px 20px;
+      background-color: rgb(165, 123, 123);
+}
+
+.italyc-type{
+  font-style: oblique;
+}
+
+.border-bold{
+  border: 5px solid #15466e;
+  }
+
+  .background-purple{
+    background-color: #661edb;
+    }
+
+    .margin{ /*отступы вокруг блока*/
+      margin: 20px;
+      }
+
+      .rectangle{
+        width: 300px;
+            height: 100px;
+            background-color: #000000
+        }
+
+        .standart-block{
+          background-color: #FA7268;
+              color: rgba (255, 255, 255, 0,5);
+              width: 230px;
+              height: 25px;
+              padding: 20px;
+              margin: 30px;
+              border: 2px solid #9C27B0;
+              font-size: 20px;
+        }
+
+        .border{
+          border: 1px solid red;
+          }
+          
+          #no-border{
+          border-style: none;
+          }
+
+          .background-black-50{
+            background-color: rgba(0, 0, 0, 0.5);
+            }
+
+
+   
+    @media (max-width: 750px){ /*можно добавить ориентацию для моб устр, например:  orientation lanscape*/
+    .white-text-mobile{
+        color: rgb (255, 255, 255);
+    }
+    }
+
