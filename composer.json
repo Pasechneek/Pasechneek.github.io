@@ -1,5 +1,12 @@
 {
+    "description": "no-description",
     "name": "pasechneek/my-site-project",
     "type": "project",
-    "require": {}
+    "require": {
+        "tightenco/collect": "^8.19",
+        "funct/funct": "^1.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
 }
