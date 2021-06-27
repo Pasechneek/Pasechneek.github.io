@@ -1,6 +1,8 @@
 <?php
 
-namespace Hexlet\Php\Runner;
+require_once __DIR__ . '../vendor/autoload.php';
+
+namespace Pasechneek\Src\Runner\Php;
 
 function run()
 {

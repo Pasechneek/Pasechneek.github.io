@@ -2,6 +2,11 @@
     "description": "no-description",
     "name": "pasechneek/my-site-project",
     "type": "project",
+    "autoload": {
+        "files": [
+            "src/Runner.php"
+        ]
+    },
     "require": {
         "tightenco/collect": "^8.19",
         "funct/funct": "^1.5"
